@@ -1,4 +1,3 @@
-
 @Library(['releases-lib']) _
 
-pipelineRelease('startRelease')
+pipelineRelease(env.action)
