@@ -42,10 +42,10 @@ void call() {
               echo 'Hello, push changes in GIT'
           }
       }
-      post{
-        always{
-          echo 'Hello, always'
-        }
+    }
+    post{
+      always{
+        echo 'Hello, always'
       }
     }
   }
